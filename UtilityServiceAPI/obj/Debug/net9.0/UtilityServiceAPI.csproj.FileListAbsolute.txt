@@ -34,6 +34,9 @@
 /Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/bin/Debug/net9.0/Mono.TextTemplating.dll
 /Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/bin/Debug/net9.0/Npgsql.dll
 /Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/bin/Debug/net9.0/System.CodeDom.dll
 /Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/bin/Debug/net9.0/System.Composition.AttributedModel.dll
 /Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/bin/Debug/net9.0/System.Composition.Convention.dll
@@ -113,6 +116,7 @@
 /Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/obj/Debug/net9.0/UtilityServiceAPI.csproj.CoreCompileInputs.cache
 /Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/obj/Debug/net9.0/UtilityServiceAPI.MvcApplicationPartsAssemblyInfo.cs
 /Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/obj/Debug/net9.0/UtilityServiceAPI.MvcApplicationPartsAssemblyInfo.cache
+/Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/obj/Debug/net9.0/UtilityServiceAPI.sourcelink.json
 /Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/obj/Debug/net9.0/scopedcss/bundle/UtilityServiceAPI.styles.css
 /Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/obj/Debug/net9.0/staticwebassets.build.json
 /Volumes/Local Disk D/Projects/Utility Management Dashboard/UtilityServiceAPI/obj/Debug/net9.0/staticwebassets.development.json

@@ -12,17 +12,30 @@ builder.Services.AddSwaggerGen(); // Enables Swagger UI
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// ✅ 3. Build the application
+// ✅ 3. Configure CORS Policy
+var corsPolicy = "AllowAll";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(corsPolicy, policy =>
+    {
+        policy.AllowAnyOrigin() // Allows requests from any domain
+              .AllowAnyMethod() // Allows all HTTP methods (GET, POST, PUT, DELETE, etc.)
+              .AllowAnyHeader(); // Allows all headers
+    });
+});
+
+// ✅ 4. Build the application
 var app = builder.Build();
 
-// ✅ 4. Configure the HTTP request pipeline
+// ✅ 5. Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
+app.UseCors(corsPolicy); // ✅ Enable CORS
 app.UseAuthorization();
 app.MapControllers(); // Enables controller-based routing
 
